@@ -1,0 +1,25 @@
+{
+  "name": "@pansensoyi/adtech-kit",
+  "version": "0.1.0",
+  "description": "Ad tech utilities: GAM key-value sanitising, responsive size mappings, Prebid-style price buckets and OpenRTB 2.6 bid response validation.",
+  "license": "MIT",
+  "author": "Ian Pansensoy",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "files": ["dist"],
+  "sideEffects": false,
+  "keywords": ["adtech","google-ad-manager","gam","gpt","prebid","openrtb","header-bidding","programmatic"],
+  "repository": { "type": "git", "url": "git+https://github.com/pansensoyi/adtech-kit.git" },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
