@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Ad tech utilities: GAM key-value sanitising, responsive size mappings, Prebid-style price buckets and OpenRTB 2.6 bid response validation.",
   "license": "MIT",
-  "author": "Ian Pansensoy",
+  "author": "Ian Pansensoy <ipansensoy@gmail.com> (https://github.com/pansensoyi)",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
